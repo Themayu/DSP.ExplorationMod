@@ -1,0 +1,44 @@
+Dyson Sphere Project
+Exploration Mod
+
+[Summary]
+Players should be able traverse wormholes; either naturally occurring or artificial; to find new clusters of stars to be exploited.
+
+[Scope]
+TBD
+
+[Mechanics]
++ Using a new megastructure, Icarus can monitor the virtual particle cycle of the spacetime fabric.
++ The machine can detect irregularities in the creation and destruction of virtual particles.
++ These irregularities MAY OR MAY NOT indicate the presence of a naturally occurring wormhole to another cluster.
++ These wormholes are rare, with only between one and two showing up in any given cluster.
++ Wormholes can possibly also be found via natural exploration, but only if the player is paying extremely close attention.
++ Light WILL interfere with the scanner's function, requiring a fully complete Dyson Sphere to allow for the scan.
++ Gravity WILL interfere with the scanner's function, therefore all planets in the solar system MUST be destroyed in order to scan.
++ Once a naturally occurring wormhole has been detected AND visited in-world, a gateway megastructure can be built to hold the wormhole open.
++ This gateway megastructure WILL require "a lot" of power to operate; approximately that of three G-type stars. This amount of power will be obtained through deep-space transmission of power from multiple Dyson Spheres, and will render the Dyson Spheres UNABLE TO TRANSMIT TO ANY RAY RECEIVERS.
++ This gateway megastructure WILL require a constant supply of "Exotic Matter" to provide the negative mass tunnel to hold the wormhole open.
++ Star clusters will be generated thousands of light years from each other, and will be generated when the wormhole is first opened. This makes manually travelling between them infeasible even with warpers, REQUIRING the use of the wormhole.
++ When a wormhole has been opened and explored, Icarus can "measure" properties about the new cluster to learn information that will be important to create an artificial wormhole.
++ The gateway can be used to create an artificial wormhole for an increased energy cost and cost to "Exotic Matter". These wormholes can ONLY lead to clusters already discovered, as the gateway will need information such as mass concentrations (planets, stars, etc.) and distance from the source.
++ A gateway holding open an artificial wormhole REQUIRES another gateway on the other end to cooperate with. An artificial tunnel through spacetime cannot be held open from one side.
++ Interstellar Logistics Vessels can travel through an active wormhole, removing the need for them to travel through deep space to reach other clusters. The Interstellar Logistics Port will gain an option to allow inter-cluster travel, which will be active by default.
+
+[Details]
+Exotic Matter:
++ Primary recipe:
+  + Particle Collider: Antimatter + Strange Matter + Deuteron Fuel -> Quark-Gluon Plasma
+  + Unnamed Structure: Quark-Gluon Plasma -> Exotic Matter
++ Secondary Recipe:
+  + Particle Collider: Antimatter + Unnamed Item -> Quark-Gluon Plasma.
+    + Unnamed Item can be harvested from the edge of a black hole via HRAE-MC, if one is present.
+  + Unnamed Structure: Quark-Gluon Plasma -> Exotic Matter.
+The Hawking Radiation and Accretion Emission Macro-Collector (HRAE-MC):
++ Used with permission from Gigastructural Engineering author James Fire.
++ TBD
+Save Loading:
++ Upon loading an unmodded save, the game will perform ONE generation pass in the home cluster to generate a wormhole to a new cluster, to ensure players can continue in their current save instead of starting over.
+
+[Possible ADVISOR voice lines]
++ [On encountering your first wormhole] "Icarus, stop. There is a soft subspace anomaly in your area, and it is interfering with your mecha's power consumption." (something else to go here...?)
++ [On exiting the area around the wormhole] "Your mecha power consumption has stabilised. Analyzing the log files from your mecha sensors reveals anomalous readings that match no known phenomena recorded by COSMO. We could not have planned for this. .... I am transmitting the blueprints for a specialised laboratory. Get it up and running, so we may explore this phenomena in more detail."

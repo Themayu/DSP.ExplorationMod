@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplorationMod.Patches", "ExplorationMod.Patches\ExplorationMod.Patches.csproj", "{CFD008FF-46F0-4A56-89B2-FBF5BA4DBFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplorationMod", "ExplorationMod\ExplorationMod.csproj", "{96F00E64-4221-43C5-832C-E0E173F94170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplorationMod.Common", "ExplorationMod.Common\ExplorationMod.Common.csproj", "{E9D018F8-9AF6-42B2-BD18-46A9FC10DBE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFD008FF-46F0-4A56-89B2-FBF5BA4DBFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD008FF-46F0-4A56-89B2-FBF5BA4DBFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD008FF-46F0-4A56-89B2-FBF5BA4DBFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD008FF-46F0-4A56-89B2-FBF5BA4DBFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F00E64-4221-43C5-832C-E0E173F94170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F00E64-4221-43C5-832C-E0E173F94170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F00E64-4221-43C5-832C-E0E173F94170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F00E64-4221-43C5-832C-E0E173F94170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D018F8-9AF6-42B2-BD18-46A9FC10DBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D018F8-9AF6-42B2-BD18-46A9FC10DBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D018F8-9AF6-42B2-BD18-46A9FC10DBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D018F8-9AF6-42B2-BD18-46A9FC10DBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
