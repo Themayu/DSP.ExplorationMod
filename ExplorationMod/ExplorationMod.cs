@@ -7,12 +7,14 @@ namespace ExplorationMod
 {
 	[PublicAPI]
 	[BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
-	[BepInProcess("DSPGame.exe")]
+	[BepInProcess(PROCESS_NAME_DSP)]
 	public class ExplorationMod: BaseUnityPlugin
 	{
 		public const string PLUGIN_GUID = "zuris.dysonsphereprogram.explorationmod";
 		public const string PLUGIN_NAME = "";
 		public const string PLUGIN_VERSION = "0.0.0";
+
+		public const string PROCESS_NAME_DSP = "DSPGame.exe";
 		
 		private void Awake()
 		{
