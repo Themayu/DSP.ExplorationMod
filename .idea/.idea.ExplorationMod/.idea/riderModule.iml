@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../..">
-      <excludeFolder url="file://$MODULE_DIR$/../../ExplorationMod.Common/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ExplorationMod.Common/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ExplorationMod.Patches/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ExplorationMod.Patches/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ExplorationMod/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ExplorationMod/obj" />
-    </content>
+    <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
