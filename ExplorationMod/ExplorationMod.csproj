@@ -7,7 +7,7 @@
         <ProjectGuid>{96F00E64-4221-43C5-832C-E0E173F94170}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>ExplorationMod</RootNamespace>
+        <RootNamespace>Zuris.ExplorationMod</RootNamespace>
         <AssemblyName>ExplorationMod</AssemblyName>
         <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>

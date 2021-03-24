@@ -1,9 +1,9 @@
 ﻿using BepInEx.Logging;
-using ExplorationMod.Common.Extensions.DysonSphereProgram;
 using HarmonyLib;
 using JetBrains.Annotations;
+using Zuris.ExplorationMod.Common.Extensions.DysonSphereProgram;
 
-namespace ExplorationMod.Patches.DysonSphereProgram.PlanetFactoryPatches
+namespace Zuris.ExplorationMod.Patches.DysonSphereProgram.PlanetFactoryPatches
 {
 	[PublicAPI]
 	[HarmonyPatch(typeof(PlanetFactory), nameof(PlanetFactory.DestructFinally))]

@@ -7,7 +7,7 @@
         <ProjectGuid>{CFD008FF-46F0-4A56-89B2-FBF5BA4DBFB0}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>ExplorationMod.Patches</RootNamespace>
+        <RootNamespace>Zuris.ExplorationMod.Patches</RootNamespace>
         <AssemblyName>ExplorationMod.Patches</AssemblyName>
         <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>

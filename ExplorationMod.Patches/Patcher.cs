@@ -1,10 +1,9 @@
 ﻿using BepInEx.Logging;
-using ExplorationMod.Patches.DysonSphereProgram.PlanetFactoryPatches;
 using HarmonyLib;
 using HarmonyLib.Tools;
-using System.Reflection;
+using Zuris.ExplorationMod.Patches.DysonSphereProgram.PlanetFactoryPatches;
 
-namespace ExplorationMod.Patches
+namespace Zuris.ExplorationMod.Patches
 {
 	public static class Patcher
 	{

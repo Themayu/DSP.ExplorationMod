@@ -1,10 +1,6 @@
-﻿using ExplorationMod.Common.Extensions.System;
-using ExplorationMod.Common.Extensions.System.Collections;
-using System;
-using System.Linq;
-using System.Reflection;
+﻿using Zuris.ExplorationMod.Common.Extensions.System;
 
-namespace ExplorationMod.Common.Extensions.DysonSphereProgram
+namespace Zuris.ExplorationMod.Common.Extensions.DysonSphereProgram
 {
 	public static class PlanetDataExtensions
 	{

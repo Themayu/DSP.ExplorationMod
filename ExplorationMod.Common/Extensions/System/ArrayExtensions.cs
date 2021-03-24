@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExplorationMod.Common.Extensions.System
+namespace Zuris.ExplorationMod.Common.Extensions.System
 {
 	public static class ArrayExtensions
 	{

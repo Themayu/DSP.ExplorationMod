@@ -1,10 +1,8 @@
-﻿using ExplorationMod.Common.Extensions.System;
-using ExplorationMod.Common.Extensions.System.Collections;
-using System;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
+using Zuris.ExplorationMod.Common.Extensions.System.Collections;
 
-namespace ExplorationMod.Common.Extensions.DysonSphereProgram
+namespace Zuris.ExplorationMod.Common.Extensions.DysonSphereProgram
 {
 	public static class StarDataExtensions
 	{
@@ -40,7 +38,7 @@ namespace ExplorationMod.Common.Extensions.DysonSphereProgram
 			}
 			else
 			{
-				children.ForEach(child => star.DeletePlanet(child, false));
+				children.ForEach(child => DeletePlanet(star, (PlanetData) child, false));
 			}
 		}
 

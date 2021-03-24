@@ -7,7 +7,7 @@
         <ProjectGuid>{E9D018F8-9AF6-42B2-BD18-46A9FC10DBE8}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>ExplorationMod.Common</RootNamespace>
+        <RootNamespace>Zuris.ExplorationMod.Common</RootNamespace>
         <AssemblyName>ExplorationMod.Common</AssemblyName>
         <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
@@ -57,7 +57,6 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Class1.cs" />
         <Compile Include="Extensions\DysonSphereProgram\GalaxyDataExtensions.cs" />
         <Compile Include="Extensions\DysonSphereProgram\PlanetDataExtensions.cs" />
         <Compile Include="Extensions\DysonSphereProgram\PlanetFactoryExtensions.cs" />

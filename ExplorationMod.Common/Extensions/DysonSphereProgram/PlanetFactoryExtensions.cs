@@ -1,12 +1,12 @@
-﻿using ExplorationMod.Common.Extensions.System;
-using HarmonyLib;
+﻿using HarmonyLib;
 using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
+using Zuris.ExplorationMod.Common.Extensions.System;
 
-namespace ExplorationMod.Common.Extensions.DysonSphereProgram
+namespace Zuris.ExplorationMod.Common.Extensions.DysonSphereProgram
 {
 	public static class PlanetFactoryExtensions
 	{
@@ -43,7 +43,7 @@ namespace ExplorationMod.Common.Extensions.DysonSphereProgram
 				                        .SetOpcodeAndAdvance(OpCodes.Nop) // transform: ldarg.1 -> nop
 				                        .SetOpcodeAndAdvance(OpCodes.Nop) // transform: callvirt -> nop
 				                        .RemoveInstructions(callNotifyLength) // remove: opcode1 ... opcode9
-				                        .With(matcher => Console.WriteLine("Currently at instruction {0}", matcher.Instruction))
+				                        .With(matcher => Console.WriteLine((string) "Currently at instruction {0}", (object) matcher.Instruction))
 				                        .MatchForward(false, MatchCallTakeItems) // IL_0050: call instance void PlanetFactory::TakeBackItemsInEntity(class Player, int32)
 				                        .MatchBack(false, MatchLoadThis) // IL_004d: ldarg.0
 				                        .RemoveInstructions(callTakeItemsLength) // remove: opcode1 ... opcode4

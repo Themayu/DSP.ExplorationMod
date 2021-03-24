@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace ExplorationMod.Common.Extensions.DysonSphereProgram
+namespace Zuris.ExplorationMod.Common.Extensions.DysonSphereProgram
 {
 	public static class GalaxyDataExtensions
 	{

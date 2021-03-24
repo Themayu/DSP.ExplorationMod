@@ -1,9 +1,8 @@
 ﻿using BepInEx;
-using ExplorationMod.Patches;
 using JetBrains.Annotations;
-using System;
+using Zuris.ExplorationMod.Patches;
 
-namespace ExplorationMod
+namespace Zuris.ExplorationMod
 {
 	[PublicAPI]
 	[BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]

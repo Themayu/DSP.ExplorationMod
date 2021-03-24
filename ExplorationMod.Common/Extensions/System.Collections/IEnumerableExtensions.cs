@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 
-namespace ExplorationMod.Common.Extensions.System.Collections
+namespace Zuris.ExplorationMod.Common.Extensions.System.Collections
 {
 	public static class IEnumerableExtensions
 	{
